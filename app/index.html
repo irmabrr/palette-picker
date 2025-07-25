@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="../pics/labu.png" />
+    <link rel="stylesheet" href="/src/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Palette Picker 2.0</title>
+  </head>
+  <body>
+    <h1 id="main-header">Palette Picker </h1>
+ 
+<div class="gifters">
+    <div>
+      <form class="pal-form">
+      <h2>Add a Palette: </h2>
+      <div class="colors">
+        <label for="title" id="pal-name">Palette Title: </label>
+        <input type="text" id="title" name="title" placeholder="Enter Palette Title" required />
+        <label for="color-1">Color 1: </label>
+        <input type="color" id="color-1" name="color-1" required />
+        <label for="color-2">Color 2: </label>
+        <input type="color" id="color-2" name="color-2" required />
+        <label for="color-3">Color 3: </label>
+        <input type="color" id="color-3" name="color-3" required />
+
+
+        <p>Temperature</p>
+        <input type="radio" name="temp" id="warm" value="warm" checked />
+        <label for="warm">Warm</label>
+        <input type="radio" name="temp" id="neut" value="neutral" />
+        <label for="neut">Neutral</label>
+        <input type="radio" name="temp" id="cool" value="cool" />
+        <label for="cool">Cool</label>
+        <button type="submit" class="butt">Create the Palette</button>
+      </div>
+      </form>
+</div>
+
+   <div class="newpalettes">
+     <div class="palettes">
+       <h2>Saved Palettes</h2>
+       <ul class="premade"> </ul>
+      </div>
+    </div>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

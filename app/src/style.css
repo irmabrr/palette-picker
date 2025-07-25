@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  padding: 2rem;
+  background-color: lightgray;
+}
+
+#main-header {
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+.gifters {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+  padding: 1rem;
+  width: 100%;
+}
+
+.pal-form {
+  background: #f9f9f9;
+  padding: 1.5rem;
+  border-radius: 8px;
+  max-width: 350px;
+  flex: 1 1 350px;
+}
+
+.newpalettes {
+  border: .1rem solid black;
+  padding: 1rem;
+  border-radius: 8px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  width: 100%;
+}
+
+.premade {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.premade li.palette {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  align-items: center;
+}
+
+.two-text {
+  color: white;
+}
