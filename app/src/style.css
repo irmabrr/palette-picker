@@ -1,0 +1,130 @@
+body {
+  margin: 0;
+  padding: 2rem;
+  background-color: lightgoldenrodyellow;
+}
+
+#main-header {
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+.gifters {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+  padding: 1rem;
+  width: 100%;
+}
+
+.pal-form {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  max-width: 350px;
+  flex: 1 1 350px;
+}
+
+.newpalettes {
+  border: 0.1rem solid black;
+  padding: 1rem;
+  border-radius: 8px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  width: 100%;
+}
+
+.premade {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.premade li.palette {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  border: 1px solid black;
+  border-radius: 8px;
+  background: lightgoldenrodyellow;
+  min-width: 15rem;
+}
+
+.color-box {
+  min-width: 10rem;
+  min-height: 10rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+} 
+
+.white-block{
+  flex: 1;
+  border: 5px solid white;
+}
+
+.black-block{
+ flex: 1;
+  border: 5px solid black;
+}
+
+.white{
+  text-align: center;
+  color: white;
+  font-size: 20rem;
+}
+
+.black{
+  text-align: center;
+  color: black;
+  font-size: 20rem;
+}
+
+.color-box p {
+  margin: 0;
+  font-size: 0.8rem;
+}
+
+.copy-button,
+.delete-butt {
+  margin-top: 0.3rem;
+  padding: 0.3rem 0.6rem;
+  font-size: 0.75rem;
+  cursor: pointer;
+  border: none;
+}
+
+.copy-button {
+   background-color: white;
+  color: black;
+}
+
+.copy-button:hover,.delete-butt:hover {
+  background-color: lightgray;
+}
+
+.delete-butt {
+  background-color: red;
+  width: 100%;
+  color: black;
+}
+
+.temp-text {
+  margin-top: 0.5rem;
+  padding: 0.3rem;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  border-radius: 4px;
+}
+
+.temp-text{
+  height: 2rem;
+}
